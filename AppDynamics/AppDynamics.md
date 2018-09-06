@@ -37,10 +37,11 @@
 ### 1.3 投融资情况
 
 &emsp;&emsp;就crunchbase给出的AppDynamics投融资信息主要将2008年到2015年的五轮重要融资进行总结，如表3所示：<br>
+
 <center>表3.AppDynamics的5轮融资表</center>
 
 | 融资轮   | 宣布时间   | 融资金额 | 领投人| 
-| :------: |  :----:   | :----:  |  :----:  | :----:  |
+| :------: |  :----:   | :----:  |  :----:  |
 | A   | 2008/5/15 |   \$5.5M   | Greylock Partners , Lightspeed Partners |
 | B   | 2010/5/3 |   \$11M   | Greylock Partners , Lightspeed Partners | 
 | C     |  2012/1/17  |   \$20M   | Kleiner Perkins Caufield , Byers|
