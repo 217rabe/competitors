@@ -140,7 +140,7 @@
 
 &emsp;&emsp;数据来源分为两类，一类是local log file，另一类是streaming data，对这两类数据的分析流程不尽相同，具体如图2所示。其中在对local log file的添加上分为两种添加途径，可以通过setup wizard添加，也可以通过left bar的manage data下的collection选项中collection界面的add source选项进行添加。
 
-<center><img src = '../Sumologic/_image/1.png' width = '600'></center>
+<center><img src = './Sumologic/_image/1.png' width = '600'></center>
 
 <center>图1、Sumo Logic数据查询分析模块</center>
 
