@@ -157,7 +157,7 @@
 （2）自定义：用户可以在search page通过search query的形式对分析结果进行整合，可以将分析结果生成table，bar chart，column chart，line chart，area chart，pie chart和Box Plot chart的形式，再将其添加到dashboard中。<br>
 &emsp;&emsp;对于dashboard，sumo logic支持添加文字描述，用户自定义样式和分享给团队的功能。
 
-<center><img src = '../Sumologic/_image/4.png' width = '600'></center>
+<center><img src = './_image/4.png' width = '600'></center>
 <center>图3.Sumo Logic数据可视化</center>
 
 &emsp;&emsp;Sumo Logic根据用户加载的app不同会生成不同的仪表盘模版，下面就以Nginx为例，说明官方提供的仪表盘模版。<br>
