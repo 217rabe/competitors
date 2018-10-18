@@ -140,11 +140,11 @@
 
 &emsp;&emsp;数据来源分为两类，一类是local log file，另一类是streaming data，对这两类数据的分析流程不尽相同，具体如图2所示。其中在对local log file的添加上分为两种添加途径，可以通过setup wizard添加，也可以通过left bar的manage data下的collection选项中collection界面的add source选项进行添加。
 
-<center><img src = './Sumologic/_image/1.png' width = '600'></center>
+<center><img src = './_image/1.png' width = '600'></center>
 
 <center>图1、Sumo Logic数据查询分析模块</center>
 
-<center><img src = '../Sumologic/_image/2.png' width = '300'><img src = '../Sumologic/_image/3.png' width = '300'></center>
+<center><img src = './_image/2.png' width = '300'><img src = './_image/3.png' width = '300'></center>
 
 <center>图2.sumo logic对两类数据分析来源操作流程</center>
 
@@ -163,7 +163,7 @@
 &emsp;&emsp;Sumo Logic根据用户加载的app不同会生成不同的仪表盘模版，下面就以Nginx为例，说明官方提供的仪表盘模版。<br>
 &emsp;&emsp;在install app成功后会生成五种仪表盘的文件，如图4所示：<br>
 
-<center><img src = '../Sumologic/_image/5.png' width = '300'></center>
+<center><img src = './_image/5.png' width = '300'></center>
 <center>图4.Nginx 仪表盘文件目录</center>
 
  1. Overview文件内容分别显示访问者的位置，跨服务器的流量分布，响应类型随时间的细分以及随时间推移的流量/字节数。
@@ -176,7 +176,7 @@
 
 &emsp;&emsp;在报警功能模块，主要分为两类模式，log alerts和metrics alerts，如图5所示。
 
-<center><img src = '../Sumologic/_image/7.png' width = '600'></center>
+<center><img src = './_image/7.png' width = '600'></center>
 
 <center>图5. Sumo Logic报警功能模块</center>
 
@@ -187,7 +187,7 @@
 
 &emsp;&emsp;在这一章主要通过分析其信息架构来了解sumo logic的具体功能情况。就其页面功能分布方面主要集中在left bar和nav bar下，两个bar的具体功能设置如图6所示。<br>
 
-<center><img src = '../Sumologic/_image/8.png' width = '300'><img src = '../Sumologic/_image/9.png' width = '300'></center>
+<center><img src = './_image/8.png' width = '300'><img src = './_image/9.png' width = '300'></center>
 
 <center>图6. Sumo Logic bar结构设置</center>
 
@@ -206,7 +206,7 @@ left bar部分分类较多：<br>
 &emsp;&emsp;Nav bar和left bar在功能结构上也有一定的联系，同时存在library的入口，同时存在查看recent page的入口。通过分析sumo logic的bar结构可以看出其功能结构设置比较清晰，分类比较明确，在进行数据分析时便于用户操作。<br>
 &emsp;&emsp;在导航设计上，整个导航栏设置为可隐藏和展开的形式，如图7所示：<br>
 
-<center><img src = '../Sumologic/_image/10.png' width = '300'><img src = '../Sumologic/_image/11.png' width = '300'></center>
+<center><img src = './_image/10.png' width = '300'><img src = './_image/11.png' width = '300'></center>
 
 <center>图7. left bar设置</center>
 
@@ -214,7 +214,7 @@ left bar部分分类较多：<br>
 
 &emsp;&emsp;其nav bar部分设置如图8所示：<br>
 
-<center><img src = '../Sumologic/_image/12.png' width = '600'></center>
+<center><img src = './_image/12.png' width = '600'></center>
 <center>图8. nav bar设置</center>
 
 &emsp;&emsp;在左边固定home和library图标，在library设置了一个弹性标签窗口，支持用户对标签进行滑动操作，最多可添加52个标签，在最右边固定了一个new图标，用于快速新建窗口，当鼠标滑过标签时可以对其进行关闭，命名和复制操作。<br>
@@ -223,7 +223,7 @@ left bar部分分类较多：<br>
 
 &emsp;&emsp;在这一部分主要通过交互设计来进行分析，主要分为页面布局，色调选取和导航及主要文件icon样式设置进行分析。整体页面如图9所示。
 
-<center><img src = '../Sumologic/_image/13.png' width = '600'></center>
+<center><img src = './_image/13.png' width = '600'></center>
 
 <center>图9. Sumo Logic页面设计</center>
 
@@ -243,7 +243,7 @@ left bar部分分类较多：<br>
 
 <center>表4.Sumo Logic图标设置</center>
 
-<center><img src = '../Sumologic/_image/14.png' width = '300'></center>
+<center><img src = './_image/14.png' width = '300'></center>
 
 &emsp;&emsp;通过对其UI设计的分析可以看出，Sumo Logic界面简洁，功能入口比较明确方便用户操作。
 
@@ -271,8 +271,8 @@ left bar部分分类较多：<br>
 
 - 仪表盘页面
 
-<center><img src = '../Sumologic/_image/15.png' width = '400'></center>
-<center><img src = '../Sumologic/_image/16.png' width = '400'></center>
+<center><img src = './_image/15.png' width = '400'></center>
+<center><img src = './_image/16.png' width = '400'></center>
 
 <center>图10 Sumo Logic(上)、夏洛克（下）仪表盘页面</center>
 
@@ -280,7 +280,7 @@ left bar部分分类较多：<br>
 
 （1）功能按钮位置安排<br>
 
-<center><img src = '../Sumologic/_image/17.png' width = '400'></center>
+<center><img src = './_image/17.png' width = '400'></center>
 
 <center>图11.夏洛克仪表盘功能按钮位置改进意见</center>
 
@@ -289,7 +289,7 @@ left bar部分分类较多：<br>
 
 （2）功能按钮添加<br>
 
-<center><img src = '../Sumologic/_image/18.png' width = '400'></center>
+<center><img src = './_image/18.png' width = '400'></center>
 
 <center>图12.夏洛克仪表盘功能按钮</center>
 
@@ -302,7 +302,7 @@ left bar部分分类较多：<br>
 
 - 图表加载
 
-<center><img src = '../Sumologic/_image/19.png' width = '300'><img src = '../Sumologic/_image/20.png' width = '300'></center>
+<center><img src = './_image/19.png' width = '300'><img src = './_image/20.png' width = '300'></center>
 
 
 <center>图13.Sumo Logic(左)、夏洛克（右）图表加载效果</center>
@@ -313,7 +313,7 @@ left bar部分分类较多：<br>
 
 - 图表种类
 
-<center><img src = '../Sumologic/_image/21.png' width = '300'><img src = '../Sumologic/_image/22.png' width = '300'></center>
+<center><img src = './_image/21.png' width = '300'><img src = './_image/22.png' width = '300'></center>
 
 <center>图14.Sumo Logic(左)、夏洛克（右）图表种类</center>
 
@@ -323,7 +323,7 @@ left bar部分分类较多：<br>
 
 -  图表界面
 
-<center><img src = '../Sumologic/_image/23.png' width = '300'><img src = '../Sumologic/_image/24.png' width = '300'></center>
+<center><img src = './_image/23.png' width = '300'><img src = './_image/24.png' width = '300'></center>
 
 <center>图15.Sumo Logic(左)、夏洛克（右）图表界面</center>
 
@@ -344,7 +344,7 @@ left bar部分分类较多：<br>
 
 - 柱状图
 
-<center><img src = '../Sumologic/_image/25.png' width = '300'><img src = '../Sumologic/_image/26.png' width = '300'></center>
+<center><img src = './_image/25.png' width = '300'><img src = './_image/26.png' width = '300'></center>
 
 <center>图16.Sumo Logic(左)、夏洛克（右）柱状图</center>
 
@@ -360,13 +360,13 @@ left bar部分分类较多：<br>
 （4）增大边距可以使图形显示更加美观。<br>
 （具体样式参考图17）<br>
 
-<center><img src = '../Sumologic/_image/27.png' width = '300'></center>
+<center><img src = './_image/27.png' width = '300'></center>
 
 <center>图17.Echart数据可视化实验室柱形图示列</center>
 
 - 折线图
 
-<center><img src = '../Sumologic/_image/28.png' width = '300'><img src = '../Sumologic/_image/29.png' width = '300'></center>
+<center><img src = './_image/28.png' width = '300'><img src = './_image/29.png' width = '300'></center>
 
 <center>图18.Sumo Logic(左)、夏洛克（右）折线图</center>
 
@@ -380,7 +380,7 @@ left bar部分分类较多：<br>
 （1）点以圆形显示更美观且折线图比较关注的是最值信息，所以只需显示最值点信息即可。<br>
 （2）将当前点阴影改为线形式更清晰。<br>
 
-<center><img src = '../Sumologic/_image/30.png' width = '600'></center>
+<center><img src = './_image/30.png' width = '600'></center>
 
 <center>图19.Echart数据可视化实验室折线图示列</center>
 
@@ -388,7 +388,7 @@ left bar部分分类较多：<br>
 
 - 饼图
 
-<center><img src = '../Sumologic/_image/31.png' width = '300'><img src = '../Sumologic/_image/32.png' width = '300'></center>
+<center><img src = './_image/31.png' width = '300'><img src = './_image/32.png' width = '300'></center>
 
 <center>图20.Sumo Logic(左)、夏洛克（右）饼图</center>
 
@@ -399,13 +399,13 @@ left bar部分分类较多：<br>
 （3）显示信息：建议显示的信息颜色置为黑色，可以显示百分比信息。<br>
 原因：饼图主要用于显示数据百分比信息，所以在默认加载情况下不用显示图块的具体信息。图形与文字分离更有利于观察。<br>
 
-<center><img src = '../Sumologic/_image/33.png' width = '400'></center>
+<center><img src = './_image/33.png' width = '400'></center>
 
 <center>图21.Echart南丁格尔玫瑰图</center>
 
 - 面积图
 
-<center><img src = '../Sumologic/_image/34.png' width = '300'><img src = '../Sumologic/_image/35.png' width = '300'></center>
+<center><img src = './_image/34.png' width = '300'><img src = './_image/35.png' width = '300'></center>
 
 <center>图22.Sumo Logic(上)、夏洛克（下）面积图</center>
 
@@ -414,13 +414,13 @@ left bar部分分类较多：<br>
 建议：去掉面积图边界的点。<br>
 原因：面积图不用标示具体点，主要显示趋势。<br>
 
-<center><img src = '../Sumologic/_image/36.png' width = '400'></center>
+<center><img src = './_image/36.png' width = '400'></center>
 
 <center>图23.Echart面积图</center>
 
 - 雷达图
 
-<center><img src = '../Sumologic/_image/37.png' width = '300'><img src = '../Sumologic/_image/38.png' width = '300'></center>
+<center><img src = './_image/37.png' width = '300'><img src = './_image/38.png' width = '300'></center>
 
 <center>图24.夏洛克雷达图</center>
 &emsp;&emsp;夏洛克雷达图如图24所示。<br>
@@ -428,13 +428,13 @@ left bar部分分类较多：<br>
 原因：雷达图主要用于对具体数据的评估。<br>
 （具体样式参考图25）<br>
 
-<center><img src = '../Sumologic/_image/39.png' width = '400'></center>
+<center><img src = './_image/39.png' width = '400'></center>
 
 <center>图25.Echart雷达图</center>
 
 - 漏斗图
 
-<center><img src = '../Sumologic/_image/40.png' width = '400'></center>
+<center><img src = './_image/40.png' width = '400'></center>
 
 <center>图26.夏洛克漏斗图</center>
 
@@ -445,13 +445,13 @@ left bar部分分类较多：<br>
 原因：在数据量很大时，默认状态下显示每部分的具体信息会使界面十分混乱。消息列表纵向展示可以在增大可视信息。<br>
 （具体样式参考图27）<br>
 
-<center><img src = '../Sumologic/_image/41.png' width = '400'></center>
+<center><img src = './_image/41.png' width = '400'></center>
 
 <center>图27.Echart漏斗图</center>
 
 - 矩形树
 
-<center><img src = '../Sumologic/_image/42.png' width = '400'></center>
+<center><img src = './_image/42.png' width = '400'></center>
 
 <center>图28.夏洛克矩形树图</center>
 
@@ -463,20 +463,20 @@ left bar部分分类较多：<br>
 
 （具体样式参考图29）<br>
 
-<center><img src = '../Sumologic/_image/43.png' width = '400'></center>
+<center><img src = './_image/43.png' width = '400'></center>
 
 <center>图29.Echart矩形树图</center>
 
 -  树形图
 
-<center><img src = '../Sumologic/_image/44.png' width = '400'></center>
+<center><img src = './_image/44.png' width = '400'></center>
 
 <center>图30.夏洛克树形图</center>
 建议：<br>
 （1）节点：增大节点形状，以实心圆形显示；增大节点间的距离。<br>
 （2）当前操作：可以使当前点动态增大或颜色变化，同时跳出弹窗显示具体信息。（具体样式参考图31）<br>
 
-<center><img src = '../Sumologic/_image/45.png' width = '400'></center>
+<center><img src = './_image/45.png' width = '400'></center>
 
 <center>图31.Echart树形图</center>
 
